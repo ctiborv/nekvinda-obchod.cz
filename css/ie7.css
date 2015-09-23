@@ -1,0 +1,32 @@
+#userbox_right
+{
+  margin-left:-940px;
+}
+
+#userbox_login
+{
+  left:0px;
+  margin-left:60px;
+}
+
+
+#menu_left .dop
+{
+  background:#3e3e3e;
+}
+
+#menu_left .level0
+{
+  background:#d02626;
+}
+
+
+.box .buttons
+{
+  padding-right:0px;
+}
+
+.box .basket span
+{
+  padding-left:32px;
+}

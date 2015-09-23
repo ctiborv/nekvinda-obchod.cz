@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+  <head>
+    <script type="text/javascript" 
+            src="swfobject21/swfobject.js">
+    </script>
+    <script type="text/javascript"
+            src="swfobject21/swfkrpanomousewheel.js">
+    </script>
+    <script type="text/javascript">
+      if (swfobject.hasFlashPlayerVersion("6.0.0")) 
+      {
+        swfobject.embedSWF("krpano.swf", "krpano", 
+                            "468", "250", "9.0.28", 
+                            "swfobject21/expressInstall.swf", 
+                            {pano:"sklad_pneu.xml"}, 
+                            {allowfullscreen:true, bgcolor:"#000000"}, 
+                            {id:'krpano', name:'krpano'});
+                            
+        swfkrpanomousewheel.registerObject("krpano");
+      }
+      else
+      {
+        document.getElementById("krpano").innerHTML = 
+                                  'Pro zobrazení nainstalujte Flash Player 9';
+      }
+    </script>
+  </head>
+  
+  <body>
+    <div id="vrViewer">
+    <div id="krpano">
+    <embed id="krpanoSWFObject" width="468" height="250" flashvars="sklad_pneu.xml" allowfullscreen="true" quality="high" bgcolor="#000000" name="krpanoSWFObject" style="" src="krpano.swf" type="application/x-shockwave-flash"/>
+    </div>
+    <script src="swfobject/swfobject.js" type="text/javascript">
+    </script>
+    <script src="swfobject/swfkrpanomousewheel.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+    </script>
+    </div>
+  </body>
+
+</html>
+
+
+

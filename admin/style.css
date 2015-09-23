@@ -1,0 +1,321 @@
+
+
+
+/* login vyuziva vlastni css */
+
+
+
+body, td {
+	font-family: Verdana, Tahoma, 'Arial CE', 'Helvetica CE', sans-serif;
+	font-size: 11px;
+	margin: 0px 0px 0px 0px;
+}
+
+
+
+a:link {
+	text-decoration: underline;
+}
+a:hover {
+	color: red;
+}
+/*
+a:visited {
+	color: green;
+}
+*/
+a:active {
+	color: red;
+}
+
+
+
+.f9 {
+	font-size: 9px;
+}
+.f10 {
+	font-size: 10px;
+}
+.f10i {
+	font-size: 10px;
+	color: #767676;
+	font-style: italic;
+}
+.f11 {
+	font-size: 11px;
+}
+.f12 {
+	font-size: 12px;
+}
+.f13 {
+	font-size: 13px;
+}
+.f14 {
+	font-size: 14px;
+	
+}
+
+
+
+.box1 {border: 1px solid #000000; padding: 7px;}
+.box2 {padding: 7px;}
+.box3 {border: 2px solid #000000; padding: 7px; font-size: 13px;}
+
+
+/* rozlozeni obsahu a navigace*/
+#top {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 80px;
+	background: #6699cc;
+	/*
+	padding: 10px 10px 10px 10px;
+	margin: 0px 0px 0px 0px;*/
+}
+#versions {
+	position: absolute;
+	top: 20px;
+	left: 10px;
+	color: #FFFFFF;
+}
+#left {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 220px;
+	height: 100%;
+	padding: 90px 10px 10px 10px;
+	/*
+	background: #fbfbfb;
+	margin: 0px 0px 0px 0px;*/
+}
+#content {
+	position: absolute;
+	top: 80px;
+	left: 250px;
+	background: white;
+	width: 750px;
+	padding: 15px 0px 10px 20px;
+	/*
+	background: #ff9900;
+	margin: 0px 0px 0px 0px;*/
+}
+/* prepinani nastaveni jazyka administrace */
+#langs {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	margin: 10px 10px 10px 10px;
+	/*
+	text-align: right;*/
+}
+/* jmeno uzivatele, cas do aut. odhlaseni, odkaz odhlaseni */
+#user {
+	position: absolute;
+	top: 55px;
+	right: 0px;
+	padding: 5px 10px 5px 10px;
+	background: #ffffff;
+	font-size: 10px;
+}
+/* rozlozeni obsahu a navigace */
+#alert {
+	font-weight: bold;
+	color: #cc0000;
+}
+
+
+
+h1 {
+	font-size: 14px;
+}
+.butt1 {
+	font-size: 10px;
+	font-family: Verdana, Tahoma, 'Arial CE', 'Helvetica CE', sans-serif;
+	font-weight: bold;
+	border: 1px #444444 solid;
+}
+.butt_green {
+	font-size: 10px;
+	background: #05AA47;
+	color: #FFFFFF;
+	font-weight: bold;
+	border: 1px #444444 solid;
+	font-family: Verdana, Tahoma, 'Arial CE', 'Helvetica CE', sans-serif;
+}
+.butt_red {
+	font-size: 10px;
+	background: #FF0000;
+	color: #FFFFFF;
+	font-weight: bold;
+	border: 1px #444444 solid;
+	font-family: Verdana, Tahoma, 'Arial CE', 'Helvetica CE', sans-serif;
+}
+.butt_ostatni {
+	font-size: 10px;
+	background: #2F7BC7;
+	color: #FFFFFF;
+	font-weight: bold;
+	border: 1px #444444 solid;
+	font-family: Verdana, Tahoma, 'Arial CE', 'Helvetica CE', sans-serif;
+}
+.button_back {
+	/*position: absolute;
+	left: 490px;
+	top: 35px;*/
+	text-align: right;
+}
+.td1 {
+	padding: 2px 8px 2px 8px;
+}
+.td2 {
+	padding: 2px 8px 2px 8px;
+	text-align: center;
+}
+.td3 {
+	padding: 2px 8px 2px 8px;
+	background: #e7e7e7;
+	text-align: center;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+#app_main {
+	width: 100%;
+	font-size: 11px;
+	border-color: #a4a4a4;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	/*
+	padding-top: 25px;
+	color: #767676;
+	*/
+}
+.app {
+	width: 100%;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+	border-color: #a4a4a4;
+	border-style: solid;
+	background: #efefef;
+	border-width: 1px 1px 0px 1px;
+}
+.app_aktivni {
+	width: 100%;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+	border-color: #a4a4a4;
+	border-style: solid;
+	background: #efefef;
+	border-width: 1px 1px 1px 1px;
+}
+.app a, .app2 a, .app_aktivni a {
+	text-decoration: none;
+	width: 100%;
+	color: #000000;
+}
+
+
+/*skryvani obsahu*/
+.tn_tbl {
+	display: none;
+}
+#c1 {
+	display: block;
+}
+/*skryvani obsahu*/
+
+/*seo*/
+.seo {
+  width:475px;
+}
+
+
+.kategorie_zarazeni{
+  position: absolute; top: 90px; left: 800px; width: 280px;
+}
+
+.kategorie_zarazeni a{
+  cursor: pointer;
+}
+
+.adminselect{
+  width: 440px;
+}
+
+.tdleft{
+  width: 200px;
+}
+
+.tdright{
+  width: 440px;
+}
+
+.admintable{
+  /*width: 640px;*/
+  width:100%;
+  border-spacing:1px;
+  background: #b6b6b6;
+}
+
+.admintable td
+{
+  padding:2px;
+}
+
+.nobg{
+  background: none;
+}
+
+.blacklist
+{
+  color:grey;
+}
+
+/* Tabulka statistiky*/
+.statistic
+{
+  width:100%;
+  border-spacing:1px;
+  border:1px solid #E5E5E5;
+  color:#2D2C2C;
+}
+.statistic td,
+.statistic th
+{
+ padding:4px;
+ font-size:14px;
+ text-align:left;
+ vertical-align:top;
+}
+.statistic th
+{
+  background-color: #F3F3F3;
+  padding-top:8px;
+  padding-bottom:8px;
+}
+.statistic tr:nth-child(2n+1) td
+{
+  background-color:#F6F6F6;
+}
+.statistic .cena
+{
+  text-align:right;
+  width:130px;
+}
+/* Tabulka statistiky*/
+
+.list
+{
+  width:100%;
+  background-color:#c6c6c6;
+  border:0px;
+  border-spacing:1px;
+}
+
+.list td
+{
+  padding:4px;
+}

@@ -1,0 +1,48 @@
+.foto
+{
+  width:200px;
+  overflow:hidden;
+  padding:6px;
+  border:1px solid #AAAAAA;
+  float:left;
+  margin:1px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  height:200px;
+}
+
+.foto .img
+{
+  width:100%;
+  text-align:center;
+  overflow:hidden;
+  height:140px;
+}
+
+.foto img
+{
+  display:block;
+  margin:auto;
+}
+
+.foto .button
+{
+  margin-top:6px;
+  display:inline;
+}
+
+.foto.first
+{
+  background-color:#AAAAAA;
+}
+
+.title
+{
+  margin-top:6px;
+}
+
+input[type="submit"]
+{
+  min-width:120px;
+}

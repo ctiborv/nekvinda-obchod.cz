@@ -1,0 +1,130 @@
+input
+{
+  padding:6px;
+  padding-left:12px;
+  padding-right:12px;
+}
+
+#left
+{
+  padding:0px;
+  overflow:hidden;
+}
+
+
+#header_bg
+{
+  background:#c40403;
+}
+
+
+#userbox_right
+{
+  margin-left:-980px;
+  background:#3e3e3e;
+}
+
+#userbox_login
+{
+  left:0px;
+  margin-left:20px;
+}
+
+
+#logo
+{
+  background-image:url("/img/ie6/nekvinda_logo.png");
+}
+
+#header_banner .doprava
+{
+  background-image:url("/img/ie6/dodavka.png");
+}
+
+#header_banner .pneu
+{
+  background-image:url("/img/ie6/pneu.png");
+  height:49px;
+  float:left;
+}
+
+#basket
+{
+  background-image:url("/img/ie6/kosik.png");
+}
+
+
+#menu_top
+{
+  background:#3e3e3e;
+}
+
+#menu_top a
+{
+  padding-left:19px;
+  padding-right:19px;
+}
+
+
+#search .sword
+{
+  background:#fff;
+}
+
+#search .button
+{
+  background-image:url("/img/ie6/search_button.png");
+}
+
+
+#menu_left .dop
+{
+  background:#3e3e3e;
+}
+
+#menu_left .level0
+{
+  background:#d02626;
+}
+
+#menu_left .level0_selected
+{
+  background:#2A2A2A;
+}
+
+
+.box .info
+{
+  margin-left:-50px;
+}
+
+.box .buttons
+{
+  padding-right:0px;
+}
+
+.box .basket span
+{
+  padding-left:32px;
+}
+
+.box .detail
+{
+  background:#d02626;
+}
+
+.box .basket
+{
+  background:#3f4042;
+}
+
+.box .basket span
+{
+  background-image:url("/img/ie6/kosik_small.png");
+}
+
+
+.slider_bg
+{ /* rozhodí vzhled stránky */
+  display:none;
+}
