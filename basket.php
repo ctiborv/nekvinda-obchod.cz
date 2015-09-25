@@ -972,9 +972,68 @@ if(!empty($_POST['order'])) {
 
 
 
-
 	$tbl_params = "width=\"650\" cellpadding=\"0\" cellspacing=\"0\"";
 	$vystaveno = date("d.m.Y H:i:s", $time);  
+
+//CV:vygenerovani XML souboru
+
+$poznxml="
+
+		".$doprava['nazev']." - ".$platba['nazev']."
+
+		Dodací údaje
+		Jméno: ".$_SESSION[$PFX]['f_jmeno']."
+		Ulice: ".$_SESSION[$PFX]['f_adresa']."
+		Město: ".$_SESSION[$PFX]['f_mesto']."
+		PSČ: ".$_SESSION[$PFX]['f_psc']."
+		Stát: ".$arrayStaty[$_SESSION[$PFX]['f_stat']]."
+		Email: ".$_SESSION[$PFX]['f_mail']."
+		Tel.: ".$_SESSION[$PFX]['f_tel']."
+
+		Fakturační údaje
+		Jméno: $p_jmeno
+		Ulice: $p_adresa
+		Město: $p_mesto
+		PSČ: $p_psc
+		Stát: ".$arrayStaty[$p_stat]."
+    
+    $pozn
+		";
+    
+
+$xml = "
+<cislo_objednavky>$c_obj</cislo_objednavky>
+<id_partner>".$_SESSION[$PFX]['f_ico']."</id_partner>
+<ico_dodavatel>".S_ICO."</ico_dodavatel>
+<datum_vystaveni>$vystaveno</datum_vystaveni>
+<datum_dodani></datum_dodani>
+<poznamka_externi>$poznxml</poznamka_externi>
+
+<zpusob_platby>/<zpusob_platby>
+<sum_cena></sum_cena>
+<zpusob_dopravy></zpusob_dopravy>
+<mena></mena>
+
+
+<nazev_partner></nazev_partner>
+<adresa_partner></adresa_partner>
+<mesto_partner></mesto_partner>
+<psc_partner></psc_partner>
+<ico_partner></ico_partner>
+<dic_partner></dic_partner>
+<kontakt_partner></kontakt_partner>
+<mail_partner></mail_partner>
+<tel_partner></tel_partner>
+<nazev_prijemce></nazev_prijemce>
+<adresa_prijemce></adresa_prijemce>
+<mesto_prijemce></mesto_prijemce>
+<psc_prijemce></psc_prijemce>
+
+
+<id_zbozi></id_zbozi>
+<kusy></kusy>
+<cena></cena>
+";
 	
 	
 	
